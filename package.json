@@ -1,0 +1,16 @@
+{
+  "name": "language",
+  "version": "1.0.0",
+  "description": "Language Detection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Govinda Patel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "twig": "^1.13.2"
+  }
+}

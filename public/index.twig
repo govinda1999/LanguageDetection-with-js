@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Language Detection</title>
+    <link href="./style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center text-primary" >Language Detection</h1>
+        <div id="word" class='row'>
+            <div class='col-4'>
+                <p id="label">Enter Word</p>
+            </div>
+            <div class='col-8'>
+                <input id="letter" placeholder="Enter Text to Predict">
+                <button onclick="unknown()" id='btn' >Predict</button>
+            </div>
+        </div>
+        <div>
+            <h3 id="result" class="text-center"></h3>
+        </div>
+    </div>
+    <script src='./js/app.js'></script>
+</body>
+
+</html>
